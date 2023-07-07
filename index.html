@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <nav id="nav" class="flex flex--center">
+        <div class="nav-main width-base flex">
+            <div class="nav-main__left flex flex--start flex--al-c">
+                <img src="./assets/image/logo.png" alt="Samsung_logo">
+            </div>
+            <div class="nav-main-center flex flex--bw flex--al-c">
+                <ul class="nav-main-center__left flex flex--al-c">
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">Ưu đãi</button>
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn nav-cagetory__item--mobile">Di Động <span><i class="fa-solid fa-arrow-down-long fa-bounce"></i></span></button>
+                        <div class="nav-main-dropdown--mobile flex">
+                            <div class="dropdown-mobile-left">
+                                <p>Khám phá các thiết bị di động</p>
+                                <p>Điện thoại thông minh</p>
+                                <p>Máy tính bảng</p>
+                                <p>Đồng hồ thông minh</p>
+                                <p>Apple iPhone</p>
+                                <p>Macbook Pro</p>
+                                <p>OneUI</p>
+                                <p>Ưu đãi dành cho sinh viên</p>
+                            </div>
+                            <div class="dropdown-mobile-right">
+                                <p>News & Featured</p>
+                                <div class="dropdown-mobile-right__item">
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+                                    <div class="dropdown-mobile-right__item-box flex flex--col flex--center flex--al-c">
+                                        <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                                            alt="">
+                                        <p>Galaxy S23 Ultra</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="mask">
+
+                        </div> -->
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">TV & AV</button>
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">Gia Dụng</button>
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">Màn Hình</button>
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">Phụ kiện</button>
+                    </li>
+                    <li class="csp flex flex--al-c">
+                        <button class="btn">SmartThings</button>
+                    </li>
+                </ul>
+                <ul class="nav-main-center__right flex flex--al-c">
+                    <li class="csp">
+                        <button class="btn">Hỗ Trợ</button>
+                    </li>
+                    <li class="csp">
+                        <button class="btn">Doanh Nghiệp</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-main__right flex flex--center flex--al-c">
+                <div class="nav-main__right--search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="nav-main__right--cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="nav-main__right--user">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section id="slider" class="flex flex--center">
+        <div class="slider__banner width-base flex">
+            <img src="./assets/image/banner2.png" alt="tivi_oled__4k">
+        </div>
+        <div class="slider-overlay">
+            <p class="slider-overlay__header">
+                NEO QLED 8K
+            </p>
+            <div class="slider-overlay__content">
+                <p>Vượt đỉnh 8k, Vượt xa đa nhiệm</p>
+                <p>Thu cũ đổi mới với giá trị lên tới 21 triệu</p>
+            </div>
+            <div class="slider-overlay__btn">
+                <button class="btn tx--black">
+                    Tìm hiểu thêm
+                </button>
+                <button class="btn bg--black tx--white">
+                    Mua ngay
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="flex flex--center flex--col flex--al-c">
+        <div class="featured__title width-base flex flex--center">
+            <p>Sản Phẩm Nổi Bật</p>
+        </div>
+        <div class="featured-content bg--gray width-base">
+            <ul class="featured-content-tab flex flex--center flex--al-c">
+                <li class="featured-content-tab__item csp">Ưu đãi</li>
+                <li class="featured-content-tab__item csp">Điện thoại</li>
+                <li class="featured-content-tab__item csp">Ưu đãi sinh viên</li>
+                <li class="featured-content-tab__item csp">TV</li>
+                <li class="featured-content-tab__item csp">Gia Dụng</li>
+                <li class="featured-content-tab__item csp">Màn Hình</li>
+            </ul>
+            <div class="featured-content-banner">
+                <div class="featured-content-banner-left flex flex--center">
+                    <img src="./assets/image/PC_big.png" alt="banner1">
+                    <div class="featured-overlay flex flex--col flex--al-c">
+                        <div class="featured-overlay__title tx--white">
+                            Flash sale đổ bộ ưu đãi ngập tràn 10h-14h mỗi ngày từ 5-07.07.2023
+                        </div>
+                        <div class="featured-overlay-btn flex flex--col flex--al-c">
+                            <p class="tx--white">Thu cũ đổi mới giảm trực tiếp đến 21TR, nay đã áp dụng cho TV</p>
+                            <button class="btn tx--black bg--white">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-content-banner-right">
+                    <div class="featured-content-banner-right__item flex flex--center">
+                        <img src="./assets/image/S23-Ultra_Ex.png" alt="banner2">
+                        <div class="featured-overlay flex flex--col flex--al-c">
+                            <div class="featured-overlay__title tx--white">
+                                Galaxy S23 Ultra màu độc quyền từ 23.99tr
+                            </div>
+                            <div class="featured-overlay-btn flex flex--col flex--al-c">
+                                <p class="tx--white">Nhập HJUL giảm ngay 1 triệu, thanh toán online giảm</p>
+                                <button class="btn tx--black bg--white">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-content-banner-right__item flex flex--center">
+                        <img src="./assets/image/A14_LTE-offer.png" alt="banner3">
+                        <div class="featured-overlay flex flex--col flex--al-c">
+                            <div class="featured-overlay__title tx--white">
+                                Combo 2 iPhone 13 giảm ngay 22%
+                            </div>
+                            <div class="featured-overlay-btn flex flex--col flex--al-c">
+                                <p class="tx--white">Thanh toán online giảm thêm 500k</p>
+                                <button class="btn tx--black bg--white">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-content-banner-right__item flex flex--center">
+                        <img src="./assets/image/general.png" alt="banner4">
+                        <div class="featured-overlay flex flex--col flex--al-c">
+                            <div class="featured-overlay__title tx--white">
+                                Nhập IPHONE ưu đãi đến 77tr
+                            </div>
+                            <div class="featured-overlay-btn flex flex--col flex--al-c">
+                                <p class="tx--white">Thanh toán online giảm thêm 10%</p>
+                                <button class="btn tx--black bg--white">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-content-banner-right__item flex flex--center">
+                        <img src="./assets/image/AV_trade_in.png" alt="banner5">
+                        <div class="featured-overlay flex flex--col flex--al-c">
+                            <div class="featured-overlay__title tx--white">
+                                Thu cũ đổi mới ưu đãi lên đến 21tr
+                            </div>
+                            <div class="featured-overlay-btn flex flex--col flex--al-c">
+                                <p class="tx--white">Nâng cấp TV ngay hôm nay</p>
+                                <button class="btn tx--black bg--white">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="key-featured flex flex--center flex--col flex--al-c">
+        <div class="key-featured__title featured__title width-base flex flex--center">
+            <p>Di Động</p>
+        </div>
+        <ul class="key-featured-tab width-base flex flex--center">
+            <li class="key-featured-tab__item csp">
+                Galaxy S23 Ultra
+            </li>
+            <li class="key-featured-tab__item csp">Galaxy A34 | A54 5G</li>
+            <li class="key-featured-tab__item csp"> Phiên bản Galaxy Z Flip4 Bespoke</li>
+            <li class="key-featured-tab__item csp">Galaxy Z Fold4</li>
+            <li class="key-featured-tab__item csp">Galaxy Watch5 | Watch5 Pro
+            </li>
+        </ul>
+        <div class="key-featured-img width-base flex flex--center flex--al-c">
+            <img src="https://images.samsung.com/is/image/samsung/assets/vn/2302/home/HOME_DM3_KV_MX-KV_743X418_pc.jpg?$743_418_PNG$"
+                alt="Galaxy S23 Ultra">
+        </div>
+        <div class="key-featured-textwrap">
+            <div class="key-featured-textwrap__title flex flex--center flex--al-c">
+                <p>Galaxy S23 Ultra</p>
+            </div>
+            <div class="key-featured-textwrap__desc">
+                <span>Thanh toán online giảm thêm </span> <span>2 triệu </span> <span>Thu cũ đổi mới hỗ trợ
+                </span><span>2 triệu</span>
+            </div>
+            <div class="key-featured-textwrap__cta flex flex--center">
+                <button class="btn tx--black">
+                    Tìm hiểu thêm
+                </button>
+                <button class="btn tx--white bg--black">
+                    Mua ngay
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="houseware flex flex--center flex--col flex--al-c">
+        <div class="houseware-main width-base">
+            <div class="houseware__img">
+                <img src="./assets/image/bespoke-mainkv-pc.png" alt="banner_hw">
+            </div>
+            <div class="houseware-main-heading width-base">
+                <div class="houseware-main-heading__title flex flex--center">
+                    <p>Gia Dụng</p>
+                </div>
+                <ul class="houseware-main-heading-tab flex flex--center flex--al-c">
+                    <li class="houseware-main-heading__item csp flex flex--center flex--al-c flex--col">
+                        <p>BESPOKE</p>
+                        <span></span>
+                    </li>
+                    <li class="houseware-main-heading__item csp flex flex--center flex--al-c">
+                        <p>Tủ Lạnh Family Hub</p>
+                    </li>
+                    <li class="houseware-main-heading__item csp flex flex--center flex--al-c">
+                        <p>Máy giặt cửa trước</p>
+                    </li>
+                    <li class="houseware-main-heading__item csp flex flex--center flex--al-c">
+                        <p>Tủ chăm sóc quần áo</p>
+                    </li>
+                    <li class="houseware-main-heading__item csp flex flex--center flex--al-c">
+                        <p>Máy lọc không khí</p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="houseware-main-desc width-base">
+                <div class="houseware-main-desc__title flex flex--center flex--al-c">
+                    <p>Linh hoạt thiết kế, cá tính riêng bạn</p>
+                </div>
+
+                <div class="houseware-main-desc__cta flex flex--center">
+                    <button class="btn tx--black">
+                        Tìm hiểu thêm
+                    </button>
+                    <button class="btn tx--white bg--black">
+                        Xem tất cả sản phẩm
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore flex flex--center">
+        <div class="explore-main width-base flex flex-center flex--col flex--al-c">
+            <div class="explore-main__title">
+                <p>Explore #DoWhatYouCant</p>
+            </div>
+            <div class="explore-main-content flex f-w">
+                <div class="explore-main-content__box">
+                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/p6_initial_explore_detail/life-hacks/tips-for-navigating-big-life-changes/mx0147_home-explore-banner_pc_684x684.jpg?$684_684_PNG$"
+                        alt="explore_img1">
+                </div>
+                <div class="explore-main-content-desc">
+                    <div class="explore-main-content-desc__item flex flex--al-c">
+                        <div class="explore-main-content-desc__item--number">
+                            01
+                        </div>
+                        <div class="explore-main-content-desc__item--title">
+                            <p>
+                                Lời khuyên để đón nhận những thay đổi lớn trong cuộc sống
+                            </p>
+                            <button class="btn">
+                                Tìm hiểu thêm
+                            </button>
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="explore-main-content-desc__item flex flex--al-c">
+                        <div class="explore-main-content-desc__item--number">
+                            02
+                        </div>
+                        <div class="explore-main-content-desc__item--title">
+                            <p>
+                                Thỏa sức Freestyle
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <div class="explore-main-content-desc__item flex flex--al-c">
+                        <div class="explore-main-content-desc__item--number">
+                            03
+                        </div>
+                        <div class="explore-main-content-desc__item--title">
+                            <p>
+                                Bánh Canapés làm từ củ dền nướng phô mai Ricotta
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="explore-main-content-desc__item flex flex--al-c">
+                        <div class="explore-main-content-desc__item--number">
+                            04
+                        </div>
+                        <div class="explore-main-content-desc__item--title">
+                            <p>
+                                Future Generations mở lối cho một tương lai bền vững
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="help">
+        <div class="help-main flex flex--center flex--al-c flex--col">
+            <div class="help-main__title">
+                <p>Chúng tôi có thể giúp bạn tìm kiếm?</p>
+            </div>
+            <div class="help-main-box">
+
+                <div class="help-main-box__search ">
+                    <label for="search" class="csp"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" id="search" placeholder="Search Keyword">
+                </div>
+                <div class="help-main-box-keyword flex flex--col">
+                    <div class="">
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                    </div>
+                    <div class="">
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                    </div>
+
+
+                    <div class="">
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                        <span>KeyWord</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer width-base flex flex--center flex--al-c flex--col">
+        <div class="footer-col flex width-base flex--center flex--bw">
+            <div class="footer-col__item">
+                <div class="footer-cagetory">
+                    Sản phẩm và Dịch vụ
+                </div>
+                <div class="footer-cagetory__list">
+                    <div class="footer-cagetory__item">Điện thoại thông minh</div>
+                    <div class="footer-cagetory__item">Máy tính bảng</div>
+
+                    <div class="footer-cagetory__item">Thiết bị âm thanh</div>
+                    <div class="footer-cagetory__item">Thiết bị đeo</div>
+                    <div class="footer-cagetory__item">Smart Switch</div>
+                    <div class="footer-cagetory__item">Tivi</div>
+                    <div class="footer-cagetory__item">Tulen</div>
+                    <div class="footer-cagetory__item">Giải pháp không khí</div>
+                    <div class="footer-cagetory__item">Máy giặt và máy sấy</div>
+
+                    <div class="footer-cagetory__item">Màn hình</div>
+
+
+                </div>
+            </div>
+            <div class="footer-col__item">
+                <div class="footer-cagetory">
+                    Mua Trực Tuyến
+                </div>
+                <div class="footer-cagetory__list">
+                    <div class="footer-cagetory__item">Ưu đãi sinh viên</div>
+                    <div class="footer-cagetory__item">Ưu đãi chính phủ</div>
+
+                    <div class="footer-cagetory__item">Ưu đãi nhân viên đối tác
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+                    <div class="footer-cagetory__item">Ưu đãi độc quyền</div>
+                    <div class="footer-cagetory__item">VIP Mall</div>
+                    <div class="footer-cagetory__item">Câu hỏi thường gặp
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+                    <div class="footer-cagetory__item">Tìm cửa hàng</div>
+                    <div class="footer-cagetory__item">Samsung Care+</div>
+
+                </div>
+            </div>
+            <div class="footer-col__item">
+                <div class="footer-cagetory">
+                    Bạn Cần Hỗ Trợ
+                </div>
+                <div class="footer-cagetory__list">
+                    <div class="footer-cagetory__item">Đặt hẹn lịch sửa chữa</div>
+                    <div class="footer-cagetory__item">Tư vấn trực tuyến
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+
+                    <div class="footer-cagetory__item">Thư điện tử
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+                    <div class="footer-cagetory__item">Điện thoại
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+                    <div class="footer-cagetory__item">Trung tâm bảo hành</div>
+                    <div class="footer-cagetory__item">Ngôn ngữ ký hiệu</div>
+                    <div class="footer-cagetory__item">Gửi ý kiến phản hồi
+                        <span>
+                            <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+                        </span>
+                    </div>
+                    <div class="footer-cagetory__item">Gửi cho Ban giám đốc</div>
+
+                </div>
+            </div>
+            <div class="footer-col__item">
+                <div class="footer-cagetory">
+                    Tài khoản và cộng đồng
+                </div>
+                <div class="footer-cagetory__list">
+                    <div class="footer-cagetory__item">Tài khoản của tôi</div>
+                    <div class="footer-cagetory__item">Đơn hàng</div>
+
+                    <div class="footer-cagetory__item">Danh sách yêu thích</div>
+                    <div class="footer-cagetory__item">Samsung members</div>
+
+                </div>
+            </div>
+            <div class="footer-col__item">
+                <div class="footer-cagetory">
+                    Sự bền vững
+                </div>
+                <div class="footer-cagetory__list">
+                    <div class="footer-cagetory__item">Môi trường</div>
+                    <div class="footer-cagetory__item">Bảo mật và quyền riêng tư</div>
+
+                    <div class="footer-cagetory__item">Trợ năng</div>
+                    <div class="footer-cagetory__item">Đa dạng - Công bằng - Hòa nhập</div>
+                    <div class="footer-cagetory__item">Công dân và doanh nghiệp</div>
+                    <div class="footer-cagetory__item">Tính bền vững của doanh nghiệp</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom width-base flex flex--bw">
+            <div class="footer-bottom-left">
+                <p>Bản quyền ©1995-2023 Samsung bảo lưu mọi quyền.</p>
+                <p>Công ty TNHH Điện Tử Samsung Vina</p>
+                <p>Giấy CNĐT: 411043002319, do UBND TP HCM cấp ngày 28/8/2007</p>
+                <p>Địa chỉ: Giao Thuy - Nam Dinh</p>
+                <p>Điện thoại: +84-367570800</p>
+            </div>
+            <div class="footer-bottom-right flex">
+                <div class="footer-bottom-right__item">
+                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/p6_gro1/p6_initial_footer/gov-logos-1.png?$ORIGIN_PNG$"
+                        alt="certificate">
+                </div>
+                <div class="footer-bottom-right__item">
+                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/p6_gro1/p6_initial_footer/gov-logos-2.png?$ORIGIN_PNG$"
+                        alt="certificate2">
+                </div>
+                <div class="footer-bottom-right__item">
+                    <img src="https://images.samsung.com/is/image/samsung/assets/vn/p6_gro1/p6_initial_footer/gov-logos-3.png?$ORIGIN_PNG$"
+                        alt="certificate3">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
